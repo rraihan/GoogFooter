@@ -23,7 +23,7 @@ public class ClickSettingLoops {
 
 		System.out.println(driver.manage().window().getSize());
 		// Create object of Dimensions class
-		Dimension d = new Dimension(480, 620);
+		Dimension d = new Dimension(480, 720);
 		// Resize the current window to the given dimension
 		driver.manage().window().setSize(d);
 		System.out.println(driver.manage().window().getSize());
